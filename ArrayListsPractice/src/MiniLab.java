@@ -25,6 +25,7 @@ public class MiniLab
 			}
 			if(count<1) {
 				nums.remove(i);
+				i--;
 			}
 			count=0;
 		}
@@ -41,7 +42,7 @@ public class MiniLab
 	  factor.add(5);
 	  factor.add(6);
 	  factor.add(7);
-	  System.out.println(getListOfFactors(762));
-	  keepOnlyCompositeNumbers(factor);
+	  System.out.println(getListOfFactors(762));//First method
+	  keepOnlyCompositeNumbers(factor);//Second method
   }
 }
