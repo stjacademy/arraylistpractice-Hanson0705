@@ -12,13 +12,8 @@ public class Notes {
 		myList.add(1, 43);
 		System.out.println(myList.remove(1));
 		System.out.println(myList);
-		for(int i=0; i<myList.size();i++) {
-			System.out.println(myList.get(i));
+		Integer remove = (Integer)myList.remove(myList.size()-1);
+		System.out.println(remove);
 		}
-		System.out.println("**************");
-		for(Integer num : myList) {
-			System.out.println(num);
-		}
-	}
 
 }
